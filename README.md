@@ -6,23 +6,23 @@
 1) Open Start -> Programs -> Accessories -> Notepad
 2) Type the following training data set with the help of Notepad for Employee Table.
 
-```
+```arff
 --------------
 Employee Data
 ---------------
 @relation employee
-@attribute name {x,y,z,a,b}
+@attribute name {Surya,Ana,Paul,Sydney,Ryan}
 @attribute id numeric
 @attribute salary {low,medium,high}
 @attribute exp numeric
 @attribute gender {male,female}
 @attribute phone numeric
 @data
-x,101,low,2,male,250311
-y,102,high,3,female,251665
-z,103,medium,1,male,240238
-a,104,low,5,female,200200
-b,105,high,2,male,240240
+Surya,101,low,2,male,250311
+Ana,102,high,3,female,251665
+Paul,103,medium,1,male,240238
+Sydney,104,low,5,female,200200
+Ryan,105,high,2,male,240240
 
 --------------
 Weather Data
